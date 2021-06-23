@@ -7,6 +7,9 @@ padding-bottom: 15px;
 padding-left: 5px;
   margin: 10px;
 }
+* {
+  box-sizing: border-box;
+}
 body {
   background-color: #ffffff;
   font-family: 'Roboto', sans-serif;
@@ -94,6 +97,10 @@ a:focus {
   background-color: #f7444e;
   color: #002c3e;
 }
+/* Layout styling */
 .container {
-  max-width: 1200px;
+  padding: 0 15px;
+}
+.row {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
 }
