@@ -1,5 +1,5 @@
 header {
-  background-color: #78bcc4;
+  background-color: #ffffff;
   padding: 10px;
   padding-top: 10px;
 padding-right: 5px;
@@ -93,4 +93,7 @@ a:focus {
 .button.contact:hover {
   background-color: #f7444e;
   color: #002c3e;
+}
+.container {
+  max-width: 1200px;
 }
