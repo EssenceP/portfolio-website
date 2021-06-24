@@ -6,6 +6,9 @@ padding-right: 5px;
 padding-bottom: 15px;
 padding-left: 5px;
   margin: 10px;
+  box-shadow: 2px 2px 1px #efefef;
+  position:relative;
+  width: 100%
 }
 * {
   box-sizing: border-box;
@@ -103,4 +106,41 @@ a:focus {
 }
 .row {
   margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
+.center {
+  text-align: center;
+}
+header {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+}
+.logo {
+  max-width: 250px;
+}
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+nav > ul > li {
+  display: inline-block;
+}
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #4a4a4a;
+}
+
+nav > ul > li > a:visited {
+color: #f7444e
+}
+nav > ul > li > a:hover {
+color: #002c3e
+}
+nav > ul > li > a:active {
+color: #f7444e
+}
+#hero {
+  background-color: #ffffff;
 }
