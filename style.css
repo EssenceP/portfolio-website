@@ -144,3 +144,8 @@ color: #f7444e
 #hero {
   background-color: #ffffff;
 }
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+}
